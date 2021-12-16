@@ -28,7 +28,11 @@ export default function Home() {
         </button>
       </div>
       <div className="w-full h-screen">
-        <Image src="/../public/homepage.jpg" layout="fill" objectFit="cover" />
+        <Image
+          src="https://i.postimg.cc/dtPwrz0M/homepage.jpg"
+          layout="fill"
+          objectFit="cover"
+        />
       </div>
     </div>
   );

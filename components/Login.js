@@ -13,7 +13,7 @@ function Login() {
       >
         <Image
           className="object-cover rounded-full"
-          src="/../public/logo-home.png"
+          src="https://i.postimg.cc/VLq1RDSJ/logo-home.png"
           height={400}
           width={400}
         />
