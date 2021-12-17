@@ -5,6 +5,7 @@ module.exports = {
       "links.papareact.com",
       "i.postimg.cc",
       "postimg.cc",
+      "live.staticflickr.com",
     ],
   },
 };
