@@ -10,12 +10,14 @@ export default function Home() {
   if (!isAuthenticated) return <Login />;
 
   return (
-    <div className="h-screen overflow-y-scroll bg-gradient-to-b from-black to-red-900 overflow-hidden">
+    <div className="h-screen overflow-y-scroll bg-gradient-to-b from-black to-sky-900 overflow-hidden">
       <Head>
         <title>Metaverse Challenge</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
+      <div className="absolute z-50">
+        <div id="stars"></div>
+      </div>
       {/*<h1 className="font-mono text-2xl text-white  font-bold uppercase bg-red-700 shadow-lg shadow-red-500/50 object-cover p-2">
           Welcome to the METAVERSE chat!
   </h1>*/}

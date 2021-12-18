@@ -45,8 +45,11 @@ function Messages() {
         <SendMessage endOfMessagesRef={endOfMessagesRef} />
       </div>
 
-      <div ref={endOfMessagesRef} className="text-center text-gray-400 mt-5">
-        <p>You're up to date {user.getUsername()}!</p>
+      <div
+        ref={endOfMessagesRef}
+        className="text-center text-gray-400 mt-5 text-mono"
+      >
+        <p>You're up to date {user.getUsername()}! 🚀</p>
       </div>
     </div>
   );

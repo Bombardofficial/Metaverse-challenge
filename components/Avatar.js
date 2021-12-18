@@ -4,8 +4,8 @@ function Avatar({ username, logoutOnPress }) {
   const { user, logout } = useMoralis();
   return (
     <Image
-      className="rounded-full bg-black cursor-pointer hover:opacity-75"
-      src={`https://avatars.dicebear.com/api/pixel-art/${
+      className="rounded-full bg-gray-900 cursor-pointer hover:opacity-75"
+      src={`https://avatars.dicebear.com/api/bottts/${
         username || user.get("username")
       }.svg`}
       onClick={() => logoutOnPress && logout()}

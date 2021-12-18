@@ -15,11 +15,11 @@ function ChangeUsername() {
     });
   };
   return (
-    <div className="text-sm absolute top-5 right-5">
+    <div className="text-md absolute top-5 right-5 font-mono">
       <button
         disabled={isUserUpdating}
         onClick={setUsername}
-        className="hover:text-red-400 font-bold"
+        className="hover:text-sky-200 font-bold"
       >
         Change your Username
       </button>
