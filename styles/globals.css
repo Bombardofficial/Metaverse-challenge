@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 @import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,900&display=swap");
+body {
+  overflow: hidden;
+}
 .welcome {
   color: transparent;
   -webkit-text-stroke: 1px #fff;
@@ -17,6 +20,18 @@
   100% {
     background-position: 2000px 0;
   }
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(transparent, rgb(92, 253, 253));
+  border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(transparent, teal);
+  border-radius: 6px;
 }
 #stars {
   width: 1px;
